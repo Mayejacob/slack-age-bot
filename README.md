@@ -14,8 +14,8 @@ Welcome to the Slack Bot YOB (Year of Birth) Calculator project! This is a simpl
 Set the following environment variables with your Slack Bot Token and Slack App Token:
 
 ```bash
-export SLACK_BOT_TOKEN=xoxb-your-bot-token
-export SLACK_APP_TOKEN=xapp-your-app-token
+SLACK_BOT_TOKEN=xoxb-your-bot-token
+SLACK_APP_TOKEN=xapp-your-app-token
 ```
 ### Installation
 
@@ -44,8 +44,7 @@ The bot will start listening for Slack commands.
 
 The application prints command events to the console. These events include details about each command, such as timestamp, command name, parameters, and event type.
 
-
 ## Acknowledgments
 
-    [https://github.com/shomali11/slacker](slacker: A Slack client library for Go.)
-    [https://github.com/AkhilSharma90/GO-Slackbot-Calculates-Age](AkhilSharma)
+- [slacker](https://github.com/shomali11/slacker): A Slack client library for Go.
+- [AkhilSharma90/GO-Slackbot-Calculates-Age](https://github.com/AkhilSharma90/GO-Slackbot-Calculates-Age): Acknowledging the source for inspiration.
